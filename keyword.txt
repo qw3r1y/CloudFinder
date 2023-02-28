@@ -1,0 +1,12 @@
+aws
+sx-amz-bucket
+x-amz-request
+x-amz-id
+amazons3
+x-amz
+x-amz-rid
+x-amz-server-side-encryption
+x-amz-version-id
+x-goog-if-generation-match
+x-goog-if-metageneration-match
+x-goog-user-project
