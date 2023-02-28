@@ -6,7 +6,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 url_list = []
 #It will be added here with the file location where our urls are.
-with open(r"X:\Example\ex\Documents\Python\urller.txt") as file:
+with open(r"urller.txt") as file:
     for row in file:
         url_list.append(row.split("\n")[0])
         
@@ -14,7 +14,7 @@ with open(r"X:\Example\ex\Documents\Python\urller.txt") as file:
 # List of keywords to search for in headers
 keyword_list = []
 #It will be added here with the file location where our urls are.
-with open(r"X:\Example\ex\Documents\Documents\Python\keyword.txt") as file:
+with open(r"keyword.txt") as file:
     for row in file:
         keyword_list.append(row.split("\n")[0])
 
